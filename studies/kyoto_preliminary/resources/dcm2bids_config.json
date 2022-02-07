@@ -1,0 +1,255 @@
+{
+    "descriptions": [
+        {
+            "dataType": "anat",
+            "modalityLabel": "angio",
+            "customLabels": "part-phase",
+            "criteria": {
+                "SeriesDescription": "fl_pc_tra_p3_P",
+                "SequenceName": "*pc3d1_v075ap"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "angio",
+            "customLabels": "part-mag_rec-sum",
+            "criteria": {
+                "SeriesDescription": "fl_pc_tra_p3_MSUM"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "angio",
+            "customLabels": "part-mag_rec-sag",
+            "criteria": {
+                "SeriesDescription": "fl_pc_tra_p3_MSUM_MIP_SAG"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "angio",
+            "customLabels": "part-mag_rec-cor",
+            "criteria": {
+                "SeriesDescription": "fl_pc_tra_p3_MSUM_MIP_COR"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "angio",
+            "customLabels": "part-mag_rec-tra",
+            "criteria": {
+                "SeriesDescription": "fl_pc_tra_p3_MSUM_MIP_TRA"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "IRT1",
+            "customLabels": "acq-TI1200",
+            "criteria": {
+                "SeriesDescription": "ep2d_ir for T1map_TI1200"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "IRT1",
+            "customLabels": "acq-TI1700",
+            "criteria": {
+                "SeriesDescription": "ep2d_ir for T1map_TI1700"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "IRT1",
+            "customLabels": "acq-TI200",
+            "criteria": {
+                "SeriesDescription": "ep2d_ir for T1map_TI200"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "IRT1",
+            "customLabels": "acq-TI2200",
+            "criteria": {
+                "SeriesDescription": "ep2d_ir for T1map_TI2200"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "IRT1",
+            "customLabels": "acq-TI2700",
+            "criteria": {
+                "SeriesDescription": "ep2d_ir for T1map_TI2700"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "IRT1",
+            "customLabels": "acq-TI3200",
+            "criteria": {
+                "SeriesDescription": "ep2d_ir for T1map_TI3200"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "IRT1",
+            "customLabels": "acq-TI3700",
+            "criteria": {
+                "SeriesDescription": "ep2d_ir for T1map_TI3700"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "IRT1",
+            "customLabels": "acq-TI4200",
+            "criteria": {
+                "SeriesDescription": "ep2d_ir for T1map_TI4200"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "IRT1",
+            "customLabels": "acq-TI50",
+            "criteria": {
+                "SeriesDescription": "ep2d_ir for T1map_TI50"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "IRT1",
+            "customLabels": "acq-TI700",
+            "criteria": {
+                "SeriesDescription": "ep2d_ir for T1map_TI700"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "MERGE",
+            "customLabels": "",
+            "criteria": {
+                "SeriesDescription": "gre for T2starmap"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "MP2RAGE",
+            "customLabels": "inv-1",
+            "criteria": {
+                "SeriesDescription": "t1_mp2rage_sag_p3_1mm_INV1"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "MP2RAGE",
+            "customLabels": "inv-2",
+            "criteria": {
+                "SeriesDescription": "t1_mp2rage_sag_p3_1mm_INV2"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "MP2RAGE",
+            "customLabels": "rec-uni-images",
+            "criteria": {
+                "SeriesDescription": "t1_mp2rage_sag_p3_1mm_UNI_Images"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "FLAIR",
+            "customLabels": "",
+            "criteria": {
+                "SeriesDescription": "Sag 3d T2 flair space (sm fov)"
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "TB1TFL",
+            "customLabels": "acq-anatomical",
+            "criteria": {
+                "SeriesDescription": "tfl_b1map for B1map",
+                "ImageComments": "anatomical image"
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "TB1TFL",
+            "customLabels": "acq-flipAngleMap",
+            "criteria": {
+                "SeriesDescription": "tfl_b1map for B1map",
+                "ImageType": ["ORIGINAL", "PRIMARY", "FLIP ANGLE MAP", "ND"]
+            }
+        },
+        {
+            "dataType": "dwi",
+            "modalityLabel": "dwi",
+            "customLabels": "rec-main",
+            "criteria": {
+                "SeriesDescription": "resolve_mddw_20_tra_p3_sms2"
+            }
+        },
+        {
+            "dataType": "dwi",
+            "modalityLabel": "dwi",
+            "customLabels": "rec-adc",
+            "criteria": {
+                "SeriesDescription": "resolve_mddw_20_tra_p3_sms2_ADC"
+            }
+        },
+        {
+            "dataType": "dwi",
+            "modalityLabel": "dwi",
+            "customLabels": "rec-tracew",
+            "criteria": {
+                "SeriesDescription": "resolve_mddw_20_tra_p3_sms2_TRACEW"
+            }
+        },
+        {
+            "dataType": "dwi",
+            "modalityLabel": "dwi",
+            "customLabels": "rec-fa",
+            "criteria": {
+                "SeriesDescription": "resolve_mddw_20_tra_p3_sms2_FA"
+            }
+        },
+        {
+            "dataType": "dwi",
+            "modalityLabel": "dwi",
+            "customLabels": "rec-colfa",
+            "criteria": {
+                "SeriesDescription": "resolve_mddw_20_tra_p3_sms2_ColFA"
+            }
+        },
+        {
+            "dataType": "swi",
+            "modalityLabel": "swi",
+            "customLabels": "part-mag",
+            "criteria": {
+                "SeriesDescription": "Mag_Images"
+            }
+        },
+        {
+            "dataType": "swi",
+            "modalityLabel": "swi",
+            "customLabels": "part-phase",
+            "criteria": {
+                "SeriesDescription": "Pha_Images"
+            }
+        },
+        {
+            "dataType": "swi",
+            "modalityLabel": "swi",
+            "customLabels": "rec-main",
+            "criteria": {
+                "SeriesDescription": "SWI_Images"
+            }
+        },
+        {
+            "dataType": "swi",
+            "modalityLabel": "swi",
+            "customLabels": "rec-mip",
+            "criteria": {
+                "SeriesDescription": "mIP_Images(SW)"
+            }
+        }
+    ]
+}

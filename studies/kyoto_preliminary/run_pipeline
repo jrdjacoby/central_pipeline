@@ -1,0 +1,16 @@
+#! /usr/bin/csh
+
+set study_name = kyoto_preliminary
+
+cd /autofs/vast/bandlab/scripts/studies/$study_name/
+
+setenv FSL_DIR /usr/pubsw/packages/fsl/6.0.4/
+setenv FREESURFER_HOME /autofs/cluster/freesurfer/centos7_x86_64/7.2.0;
+setenv PREFECT__FLOWS__CHECKPOINTING true
+
+source /autofs/vast/bandlab/scripts/studies/$study_name/env/bin/activate.csh
+source /autofs/cluster/freesurfer/centos7_x86_64/7.2.0/SetUpFreeSurfer.csh
+
+pip freeze > requirements.txt; git add requirements.txt; git commit -m 'tracking requirements'
+
+python pipeline.py

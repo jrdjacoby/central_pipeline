@@ -1,0 +1,7 @@
+#! /usr/bin/csh
+
+# Make sure Python can find the root pipeline scripts
+setenv PYTHONPATH = /autofs/vast/bandlab/scripts/
+
+# Launch each individual study pipeline
+jobsubmit -A bandlab -p basic -t 2-00:00:00 -m 8GB /autofs/vast/bandlab/scripts/studies/apoe/run_pipeline

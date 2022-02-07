@@ -1,0 +1,165 @@
+{
+    "descriptions": [
+        {
+            "dataType": "anat",
+            "modalityLabel": "T2w",
+            "criteria": {
+                "SeriesDescription": "T2w_SPC_vNav",
+                "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"]
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "T1w",
+            "criteria": {
+                "SeriesDescription": "T1w_MPR_vNav_4e RMS",
+                "ImageType": ["ORIGINAL", "PRIMARY", "OTHER", "ND", "MEAN"]
+            }
+        },
+        {
+            "dataType": "dwi",
+            "modalityLabel": "dwi",
+            "customLabels": "dir-AP_acq-98",
+            "criteria": {
+                "SeriesDescription": "dMRI_dir98_AP"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "FLAIR",
+            "criteria": {
+                "SeriesDescription": "Axial T2-FLAIR"
+            }
+        },
+        {
+            "dataType": "perf",
+            "modalityLabel": "asl",
+            "customLabels": "acq-ep2dPCASL",
+            "criteria": {
+                "SeriesDescription": "ep2d_pcasl_ve11c_Tau1514_PLD1200"
+            }
+        },
+        {
+            "dataType": "perf",
+            "modalityLabel": "asl",
+            "customLabels": "acq-TRUST_rec-orig_run-1",
+            "criteria": {
+                "SeriesDescription": "ep2d_TRUST_AsymShTE_Adult_4ms_Run1"
+            }
+        },
+        {
+            "dataType": "perf",
+            "modalityLabel": "T2Yv",
+            "customLabels": "acq-TRUST",
+            "criteria": {
+                "SeriesDescription": "ep2d_TRUST_AsymShTE_Adult_4ms_Run1_T2_Yv"
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "dir-AP",
+            "intendedFor": 9,
+            "criteria": {
+                "SeriesDescription": "PCASLhr_SpinEchoFieldMap_AP"
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "dir-PA",
+            "intendedFor": 9,
+            "criteria": {
+                "SeriesDescription": "PCASLhr_SpinEchoFieldMap_PA"
+            }
+        },
+        {
+            "dataType": "perf",
+            "modalityLabel": "asl",
+            "customLabels": "acq-mbPCASLhr_run-1",
+            "criteria": {
+                "SeriesDescription": "mbPCASLhr_PA_slices54_Run1"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "angio",
+            "customLabels": "acq-tof_rec-main",
+            "criteria": {
+                "SeriesDescription": "tof_fl3d_tra_p2_multi-slab"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "angio",
+            "customLabels": "acq-tof_rec-SAG",
+            "criteria": {
+                "SeriesDescription": "tof_fl3d_tra_p2_multi-slab_MIP_SAG"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "angio",
+            "customLabels": "acq-tof_rec-COR",
+            "criteria": {
+                "SeriesDescription": "tof_fl3d_tra_p2_multi-slab_MIP_COR"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "angio",
+            "customLabels": "acq-tof_rec-TRA",
+            "criteria": {
+                "SeriesDescription": "tof_fl3d_tra_p2_multi-slab_MIP_TRA"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "angio",
+            "customLabels": "acq-neckart_rec-main",
+            "criteria": {
+                "SeriesDescription": "pc_2d_quantFlow_venc40_neckart"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "angio",
+            "customLabels": "acq-neckart_rec-MAG",
+            "criteria": {
+                "SeriesDescription": "pc_2d_quantFlow_venc40_neckart_MAG"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "angio",
+            "customLabels": "acq-neckart_rec-P",
+            "criteria": {
+                "SeriesDescription": "pc_2d_quantFlow_venc40_neckart_P"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "angio",
+            "customLabels": "acq-sagsinus_rec-main",
+            "criteria": {
+                "SeriesDescription": "pc_2d_quantFlow_venc40_sagsinus"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "angio",
+            "customLabels": "acq-sagsinus_rec-MAG",
+            "criteria": {
+                "SeriesDescription": "pc_2d_quantFlow_venc40_sagsinus_MAG"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "angio",
+            "customLabels": "acq-sagsinus_rec-P",
+            "criteria": {
+                "SeriesDescription": "pc_2d_quantFlow_venc40_sagsinus_P"
+            }
+        }
+    ]
+}
